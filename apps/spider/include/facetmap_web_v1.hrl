@@ -1,0 +1,31 @@
+-define(FACETMAP,		"urn:facetmap:web_v1").
+
+-define(NXDOMAIN,		{?FACETMAP,"nxdomain"}).	
+-define(DNSERROR,		{?FACETMAP,"dnsError"}).	
+-define(NOARECS,		{?FACETMAP,"noARecs"}).	
+-define(WEB,			{?FACETMAP,"web"}).	
+-define(HTTPCONTINUE,		{?FACETMAP,"httpContinue"}).
+-define(HTTPPAGE,		{?FACETMAP,"httpPage"}).
+-define(HTTPREDIRECT,		{?FACETMAP,"httpRedirect"}).
+-define(HTTPPAGEERROR,		{?FACETMAP,"httpPageError"}).
+-define(HTTPSERVERERROR,	{?FACETMAP,"httpServerError"}).
+-define(HTTPTIMEOUT,		{?FACETMAP,"httpTimeout"}).
+-define(TCPERROR,		{?FACETMAP,"tcpError"}).
+-define(ECONNREFUSED,		{?FACETMAP,"econnrefused"}).
+-define(BADARG,			{?FACETMAP,"badarg"}).
+-define(OTHERERROR,		{?FACETMAP,"otherError"}).
+-define(ERROR,			{?FACETMAP,"error"}).
+
+-define(NOWEB,			{?FACETMAP,"noWeb"}).	
+-define(NOHTTP,			{?FACETMAP,"noHTTP"}).	
+-define(HTTPERROR,		{?FACETMAP,"httpError"}).	
+-define(REDIRECT,		{?FACETMAP,"redirect"}).	
+-define(REDIRUNKNOWN,		{?FACETMAP,"redirect_unknown"}).	
+-define(REDIRINTERNAL,		{?FACETMAP,"redirect_internal"}).	
+-define(REDIREXTERNAL,		{?FACETMAP,"redirect_external"}).	
+-define(REDIREXTERNALSSL,	{?FACETMAP,"redirect_external_ssl"}).	
+-define(REDIRINTERNALSSL,	{?FACETMAP,"redirect_internal_ssl"}).	
+-define(FROOT,			{?FACETMAP,"root"}).	
+-define(NULL,			{?FACETMAP,"null"}).	
+
+-define(MKTOPIC(Code),		{?FACETMAP,"http"++integer_to_list(Code)}).

@@ -1,0 +1,788 @@
+/* @override http://autodb.bss.us.mit/stylesheets/css/style3.css */
+
+/* @override http://autodb.local/resources/stylesheets/css/style3.css */
+
+/* @override http://autodb.bss.us.mit/stylesheets/css/style3.css */
+
+/* $Id: style3.css,v 1.1 2009/04/01 22:08:24 thobbins Exp $ */
+body {
+background: #fffeff;
+margin:10px;
+color:#000;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+}
+
+/* font sizes to use throughout the entire website */
+h5, p, div, table, input, select, label, li {font-size:1em;}
+
+#rhead {
+	right: 0;
+}
+
+#rhead p {
+	padding: 0;
+	margin: 0;
+}
+
+#results thead tr th {
+	padding: 3px 3px 3px 25px;
+	border-right: 1px solid #fffeff;
+}
+
+#results tbody td {
+	white-space: nowrap;
+	border-right: 1px solid #d5d5d5;
+}
+
+div.cell {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+#header {
+	background-color: #ff220e;
+	float: none;
+	clear: none;
+	height: 60px;
+}
+/* p {position:relative}; */
+h1 {font-size:18px;}
+h2 {font-size:16px;}
+h3 {font-size:14px;}
+.bold {font-weight:bold;}
+
+div#adbheader {
+		background:#ff1107;
+		padding:3px 15px 3px 10px;
+		text-align:right;
+		margin:0;
+		height:55px;
+	font-size: 12px;
+}
+
+div#adbheaderimage {
+		float:left;
+		background:#ff1107;
+		margin:0;
+		height:55px;
+}
+
+
+/* because IE doesn't support min-width */
+div#bodywrap {
+		min-width:900px;
+	   /* width:expression(document.body.clientWidth < 800? "800px": "100%"); */
+		background:#d6d6d6;
+		margin: 10px auto;
+		color:#000;
+		font-family:Arial,Helvetica,sans-serif;
+		font-size:12px;
+	width: 990px;
+	padding: 5px;
+}
+
+#rowCount {
+	float: right;
+	padding: 0;
+	margin-top: 8px;
+	margin-right: 0;
+}
+
+#content {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding: 10px 10px 0;
+}
+
+#results_container {
+	overflow: scroll;
+}
+
+#linkcsv {
+	float: left;
+}
+
+div#rheadKey {
+		float:right;
+		background-color:transparent;
+		margin-top:8px;
+		margin-right:5px;
+		font-weight:bold;
+		text-align:right;
+		width:150px;
+}
+
+
+div#rheadValue {
+		float:right;
+		background-color:transparent;
+		margin-top:8px;
+		margin-left:5px;
+		text-align:left;
+		width:220px;
+}
+
+div#lhead {
+		float:left;
+		background:#ff1107;
+		margin:0;
+		height:55px;
+	padding-left: 5px;
+	top: 15px;
+	position: absolute;
+}
+
+div#spacer {
+		clear:both;
+}
+
+/* #spacer p {position:relative}; */
+
+
+div#group {
+	clear:both;
+}
+
+
+div#groupDesc {
+	float:left;
+	margin:0;
+	width:50%;
+	padding: 0px 0px 20px 0px;
+}
+
+#groupDesc p {
+	font-size:14px;
+}
+
+div#groupNav {
+	float:right;
+	background:#fffdf9;
+	border-style:dotted;
+	border-width:1px;
+	width:30%;
+	padding: 0px 0px 20px 20px;
+}
+
+#groupDesc dl {
+	margin:0;
+	padding: 10px 2px 0px 2px;
+}
+
+#groupDesc dt {
+	font-weight:bold;
+	text-align:left;
+}
+
+#groupDesc dd {
+	/* align:right;*/
+	text-align:left;
+}
+
+#description {
+	clear:both;
+	margin: 0;
+	padding: 10px;
+	border-bottom: 1px none gray;
+}
+
+#preTable {
+	height: 30px;
+	background-color: #d5d5d5;
+	float: none;
+	clear: none;
+	border-top: 1px dotted #797979;
+	margin-bottom: 5px;
+	border-bottom: 1px dotted #797979;
+	margin-top: 18px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#results {
+	margin-top: 0;
+	border-top-style: none;
+	border-top-color: #797979;
+	border-collapse: collapse;
+	background-color: #fffeff;
+	margin-bottom: 0;
+	clear: both;
+}
+
+div.dataTables_scroll {
+	clear: both;
+}
+
+div.dataTables_scrollHead {
+	clear: both;
+	position: relative;
+}
+
+thead tr {
+	background-color: #00558e;
+}
+
+th {
+	color: #fffeff;
+	white-space: nowrap;
+	border-right: 2px solid #fffeff;
+}
+
+tbody tr.alt {
+	background-color: #eaeaea;
+}
+
+tfoot tr.acc.alt {
+	background-color: #009afc;
+}
+
+#bodywrap div.performance p {
+	text-align: right;
+	padding-right: 10px;
+	font-size: 10px;
+	font-style: italic;
+	margin: 0;
+	padding-bottom: 0;
+}
+
+div.performance {
+	float: right;
+}
+
+div.summary {
+	height: 20px;
+}
+
+#results caption {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0;
+}
+
+#results tfoot {
+	background-color: #005691;
+	color: #fffeff;
+}
+
+td.rj {
+	text-align: right;
+}
+
+#rowCount p {
+	top: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#description dl {
+	margin:0;
+	padding: 10px 2px 0px 2px; 
+}
+
+#description dt {
+	font-weight:bold;
+	text-align:left;
+}
+
+#description dd {
+	/* align:right; */
+	text-align:left;
+	padding:3px 15px 3px 10px;
+}
+
+div#reportDescription {
+	float:left;
+	width:75%;
+	border-width:1px;
+}
+
+#reportDescription dl {
+	margin:0;
+	padding: 10px 2px 0px 2px;
+	font-size:14px;
+}
+
+div#graph {
+	float:left;
+	padding: 0px 0px 0px 0px;
+}
+
+#graph img {
+	border-width:1px;
+	padding: 0px 5px 0px 0px;
+
+}
+
+div#reportInfo {
+	width:100%;
+	padding: 0px 0px 0px 0px;
+}
+
+#reportInfo p {
+	font-size:8px;
+	font-style:italic;
+	text-align:right;
+	padding: 0px 0px 0px 0px;
+}
+
+div#colDescription {
+	clear:both;
+	margin:0;
+	padding: 0px 0px 0px 0px;
+}
+
+#colDescription dl {
+	margin:0;
+	padding: 10px 2px 0px 2px;
+}
+
+#colDescription dt {
+	font-weight:bold;
+	padding: 10px 2px 0px 2px;
+	text-align:left;
+}
+
+#colDescription dd {
+	/* align:right; */
+	text-align:left;
+}
+
+
+
+a {text-decoration:none;}
+a {color:#274D74;}
+a:active {color:red;}
+a:hover {text-decoration:underline;}
+a img {border:none;}
+
+table.results {
+	width: 100%;
+	empty-cells:show;
+	border-collapse:separate;
+	background-color: #bfbfbf;
+	border-spacing:0px;
+	padding: 5px;
+	border: 1px groove #000;
+	overflow: hidden;
+	table-layout:fixed;
+	font-size: 0.9em;
+}
+
+
+td {
+	empty-cells:show;
+	padding: 0px 10px 0 25px;
+}
+
+td.id {
+	overflow: hidden;	
+}
+
+td.ftime {
+	overflow: hidden;
+}
+
+
+
+#results tfoot tr.acc td {
+	height: auto;
+	border-bottom-style: none;
+	padding: 1px 10px 1px 25px;
+	border-right: 1px solid #fffeff;
+}
+
+#rowLimit {
+	text-align: right;
+	color: #ff1212;
+	font-style: italic;
+	background: url(/resources/gfx/warning_small.png) no-repeat;
+	height: 36px;
+	width: 400px;
+	font-weight: bold;
+	padding-right: 10px;
+	float: left;
+	left: 200px;
+	position: relative;
+	bottom: 3px;
+}
+
+#rowLimit p {
+	position: relative;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+
+#xmenuContent table.results td {
+	padding-top: 0;
+	padding: 2px;
+	border-bottom: 1px solid #999;
+	
+}
+
+#results table.results td.id {
+	background-color: silver;
+	padding-left: 5px;
+}
+
+#results table.results td.ftime {
+	background-color: silver;
+	padding-left: 5px;
+}
+
+#results table.results td.desc {
+	background-color: silver;
+}
+
+#results table.results td.db {
+	padding-left: 5px;
+	background-color: silver;
+}
+
+#results table.results td.archive {
+	padding-left: 5px;
+	background-color: silver;
+}
+
+div#jobContent {
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+}
+
+hr#clear {
+	clear: both;
+}
+
+#results h2.group {
+	text-align: center;
+}
+
+
+
+#results  tr.resheading td {
+	margin: 14px;
+	background-color:#274D74;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+}
+
+tr.resheading  {
+	/* font-weight:bold; */
+	font-size: 13px;
+	color:white;
+	height: 0;
+	padding: 0;
+}
+
+#jobContent h1 {
+	text-align: center;
+}
+
+#jobContent hr {
+}
+
+td.rtitle  {
+	font-weight:bold;
+	text-align:right;
+}
+
+td.rnum {
+	text-align:right;
+	/* font-family:courier; */
+	font-family:verdana;
+}
+
+td.fixed {
+	font-family:courier new;
+	font-size:14px;
+}
+
+
+tr.q0 {
+	font-style:italic;
+}
+
+tr.q1 {
+	background-color:#dddddd;
+}
+
+tr.q1-bold {
+	background-color:#dddddd;
+	font-weight: bold;
+}
+
+tr.q1-italic {
+	font-style:italic;
+}
+
+tr.q1-blue {
+	color:blue;
+}
+
+tr.q1-green {
+	color:green;
+}
+
+tr.q1-alt {
+	background-color:#eeeeee;
+}
+
+tr.q2 {
+	/* font-weight:bold; */
+}
+
+tr.q3 {
+	color:white;
+	background-color:#274D74;
+/* 	font-weight:bold; */
+}
+
+tr.red_bkg {
+	color:white;
+	background-color:red;
+	/* font-weight:bold; */
+}
+
+tr.grn_bkg {
+	color:white;
+	background-color:green;
+	/* font-weight:bold; */
+}
+
+
+
+input {font-family:Arial,Helvetica,sans-serif;}
+
+/* common styles */
+.lfloat {float:left;}
+.rfloat {float:right;}
+
+
+/* common ids, classes and sections */
+#homelogo {
+	/* 	align:left; */
+}
+
+#footer	{
+		clear:both;
+		text-align:left;
+	border-top: 1px dotted #797979;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 50px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #797979;
+}
+
+div.warning {
+	color: #945015;
+}
+
+ul.rtwarning {
+	font-style: italic;
+	font-weight: bold;
+}
+
+div.info {
+	
+}
+
+#description h2 {
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #5e5e5e;
+}
+
+#lhead img {
+	padding-top: 0;
+	position: absolute;
+	top: 8px;
+}
+
+#footer p {
+		padding:0px 0px;
+	margin-bottom: 0;
+	margin-top: 18px;
+	text-align: center;
+}
+
+#footer a {color:#666;}
+#footer a:hover {color:#333;}
+
+.copyright {
+		text-align:center;
+}
+
+#results thead {
+	background-color: #005691;
+	color: #fffeff;
+}
+
+div#xmenu {
+	float: left;
+	width: 150px;
+	height: 800px;
+	overflow: auto;
+/*	height: 500px; */
+/*	overflow: scroll; */
+	padding-right: 10px;
+	font-size: 13px;
+}
+
+#navlist li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 3px;
+	border-bottom: 1px solid #eee;
+}
+
+div#xmenuContent {
+	float: left;
+	height: 800px;
+	overflow: scroll;
+	width: 800px;
+	padding-top: 10px;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin-bottom: 10px;
+	border-style: ridge;
+	border-width: 1px;
+	border-color: silver;
+}
+
+
+ul#navlist {
+	list-style-type: none;
+	width: 100%;
+	background-color: #274D74;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#xmenuContent a {
+	text-decoration: none;
+	color: #000;
+	text-transform: none;
+}
+
+#xmenuContent a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+#xmenuContent table.results a:hover {
+	text-decoration: underline;
+}
+
+#xmenuContent table.results a {
+	text-decoration: none;
+	color: #274D74;
+	font-weight: bold;
+}
+
+#navlist li a:hover {
+	background-color: #369;
+}
+
+div.dataTables_length {
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+div#results_filter.dataTables_filter {
+	float: left;
+	margin-top: 5px;
+	margin-left: 100px;
+}
+
+.dataTables_wrapper {
+	padding-right: 0;
+	position: relative;
+}
+
+
+.dataTables_paginate {
+	width: 44px; height:19px;
+	float: right;
+	text-align: right;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.paging_two_button {
+	cursor: pointer;
+	float: right;
+}
+
+#results_info {
+	float: left;
+	margin-left: 10px;
+}
+
+.paginate_disabled_previous {
+   width:19px; height:19px;
+   float:left;
+	background-image: url('/resources/gfx/back_disabled.jpg');
+}
+
+.paginate_enabled_previous {
+   width:19px; height:19px;
+   float:left;
+	background-image: url('/resources/gfx/back_enabled.jpg');
+}
+
+.paginate_disabled_next {
+   width:19px; height:19px;
+   float:right;
+	background-image: url('/resources/gfx/forward_disabled.jpg');
+}
+
+.paginate_enabled_next {
+   width:19px; height:19px;
+   float:right;
+	background-image: url('/resources/gfx/forward_enabled.jpg');
+}
+
+.sorting_asc {
+	cursor: pointer;
+	background: url('/resources/gfx/asc.gif') no-repeat left center;
+}
+
+.sorting_desc {
+
+	cursor: pointer;
+	background: url('/resources/gfx/desc.gif') no-repeat left center;
+}
+
+.sorting {
+	cursor: pointer;
+	background: url('/resources/gfx/bg.gif') no-repeat left center;
+}
+
+.sorting_asc_disabled {
+	padding-right:18px;
+	cursor: pointer;
+	background: url('/resources/gfx/sort_asc_disabled.png') no-repeat left center;
+}
+
+.sorting_desc_disabled {
+	padding-right:18px;
+	cursor: pointer;
+	background: url('/resources/gfx/sort_desc_disabled.png') no-repeat left center;
+}
+
+td.rowid {
+	text-align: right;
+	padding-right: 30px;
+}

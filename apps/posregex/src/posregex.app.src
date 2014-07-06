@@ -1,0 +1,12 @@
+{application,posregex,
+ [
+	{description,"Posix regexp"},
+  	{vsn,"1.0.0"},
+  	{registered,[]},
+  	{applications,[
+			kernel,
+			stdlib
+	]},
+  	{env, []},
+  	{mod,{posregex,[]}}
+]}.

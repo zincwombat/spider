@@ -1,0 +1,45 @@
+-include("xmlinfo.hrl").
+
+-define(XMLNS,		"urn:domain").
+-define(NSPREFIX,	"d1").
+-define(XMLINFO,	xmlns=?XMLNS).
+
+-record(dnsinfo,	{?XMLINFO,domain,status,timestamp,soa,mxrrs,arrs,nsrrs}).
+-record(facet,		{?XMLINFO,facet,topics}).
+-record(topic,		{?XMLINFO,topic}).
+-record(domain,		{?XMLINFO,domain}).
+-record(soa,		{?XMLINFO,master,email,serial,refresh,retry,expires,ttl}).
+-record(master,		{?XMLINFO,master}).
+-record(email,		{?XMLINFO,email}).
+-record(serial,		{?XMLINFO,serial}).
+-record(refresh,	{?XMLINFO,refresh}).
+-record(retry,		{?XMLINFO,retry}).
+-record(expires,	{?XMLINFO,expires}).
+-record(ttl,		{?XMLINFO,ttl}).
+-record(mxrrs,		{?XMLINFO,mxrrs}).
+-record(arrs,		{?XMLINFO,arrs}).
+-record(timestamp,	{?XMLINFO,timestamp}).
+-record(status,		{?XMLINFO,status}).
+
+-record(arr,		{xmlinfo=#xmlinfo{xmlns=?XMLNS,prefix=?NSPREFIX,
+  			 serialiser=fun(Z)->apply(dnsinfo,serialise,[Z]) end,
+					  type=complex},
+			 addr,
+			 type}).
+
+-record(mxrr,		{xmlinfo=#xmlinfo{xmlns=?XMLNS,prefix=?NSPREFIX,
+  			 serialiser=fun(Z)->apply(dnsinfo,serialise,[Z]) end,
+					  type=complex},
+			 server,
+			 prio}).
+
+-record(ip4address,	{?XMLINFO,ip4address}).
+-record(cname,		{?XMLINFO,cname}).
+-record(nsrrs,		{?XMLINFO,nsrrs}).
+-record(nsrr,		{?XMLINFO,server}).
+-record(prio,		{?XMLINFO,prio}).
+-record(iptype,		{?XMLINFO,iptype}).
+-record(server,		{?XMLINFO,server}).
+
+
+

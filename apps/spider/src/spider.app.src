@@ -1,0 +1,13 @@
+{application, spider,
+ [
+  {description, "Domain Name Spider Application"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {included_applications,[yaws,posregex,xmerl]},
+  {mod, { spider_app, []}},
+  {env, []}
+ ]}.

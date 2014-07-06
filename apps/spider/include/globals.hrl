@@ -1,0 +1,6 @@
+-ifndef(_GLOBALS_HRL).
+-define(_GLOBALS_HRL,true).
+-define(HOMEDIR,"/home/pi").
+-define(BASEDIR,?HOMEDIR).
+-define(HOSTNAME,"wombat.ironcache.net").
+-endif.

@@ -1,0 +1,1 @@
+-define(SPIDER_SUPERVISOR_NAME,	spider_sup).

@@ -1,0 +1,245 @@
+/* @override http://127.0.0.1:9000/css/style.css */
+
+/* @override http://127.0.0.1:9010/css/style.css */
+
+/* @override http://127.0.0.1:9010/css/style.css */
+
+/* @override http://127.0.0.1:9010/css/style.css */
+
+/* @override http://127.0.0.1:9010/css/style.css */
+
+div#bodyWrap {
+	width: 800px;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+div#main {
+	border-color: #23ffff;
+	width: 630px;
+	height: 400px;
+	float: right;
+	background-color: #f2f2f2;
+	padding: 0 0 0 5px;
+	margin: 0;
+	overflow: scroll;
+}
+
+div#sylogger {
+	font-size: 10px;
+}
+
+li.dynamic {
+	display: inline;
+	padding: 3px 10px;
+	font-size: 12px;
+	text-align: left;
+}
+
+div#dynamic_container {
+	width: 100%;
+	min-height: 50px;
+}
+
+#dynamic img {
+	vertical-align:middle;
+	margin: auto;
+}
+
+#sylogger table tr td {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+
+div#header{
+}
+
+.clear {
+	clear: left;
+}
+
+div#navblock {
+	width: 150px;
+	background-color: silver;
+	float: left;
+	height: 400px;
+}
+
+div#dynamic {
+	display: table-cell;
+	vertical-align: middle;
+	width: 70px;
+	text-align: center;
+	margin-right: 10px;
+	height: 50px;
+}
+
+#dynamic pre {
+	margin: auto;
+}
+
+ul#dynamic {
+}
+
+div#footer {
+	width: 800px;
+	background-color: #bfbfbf;
+	text-align: center;
+	font-style: italic;
+	font-size: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+ul#menulist {
+	list-style-type: none;
+}
+
+.menuitem a {
+	text-decoration: none;
+	display: block;
+	padding: 3px;
+	border-bottom: 1px solid #000;
+	color: #003e82;
+}
+	
+.menuitem a:hover{
+	background-color: #369;
+	color: #fff;
+}
+
+.smenuitem a {
+	text-decoration: none;
+	display: block;
+	padding: 3px;
+	border-bottom: 1px solid #000;
+	color: #003e82;
+}
+	
+.smenuitem a:hover{
+	background-color: #369;
+	color: #fff;
+}
+
+table.configure {
+	width: 100%;}
+
+h1 {
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 14px;
+}
+
+div#cmderror {
+	color: red;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+div#cmdok {
+	color: green;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+p.comment {
+	font-size: 10px;
+}
+
+h1.formheader {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#configure form table.configure tbody tr {
+	background-color: silver;
+}
+
+td.select {
+	background-color: #ccc;
+	width: 70%;
+	font-weight: normal;
+	font-size: 10px;
+	font-style: normal;
+}
+
+td.prompt {
+	background-color: #e6e6e6;
+	text-align: left;
+	vertical-align: middle;
+	width: 30%;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+#dynamic_container div.dynamic pre {
+		margin: auto;
+}
+
+#dynamic_container div.dynamic {
+	display: table-cell;
+	vertical-align: middle;
+	width: 70px;
+	text-align: center;
+	margin-right: 10px;
+	height: 50px;
+}
+
+th {
+	color: #fff;
+	font-size: 14px;
+}
+
+th.header { 
+	background-image: url(../gfx/bg.gif);    
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: center left; 
+    padding-left: 20px; 
+    border-right: 1px solid #dad9c7; 
+    margin-left: -1px; 
+    background-color: #369; 
+}
+
+div.dynamic {
+	position: relative;
+} 
+
+
+th.headerSortUp { 
+    background-image: url(../gfx/asc.gif); 
+    background-color: #369; 
+} 
+
+th.headerSortDown { 
+    background-image: url(../gfx/desc.gif); 
+    background-color: #369; 
+} 
+
+.spin {
+	background: url(../gfx/wait30trans.gif) no-repeat center top;
+}
+
+div#writer.dynamic {
+	width: 150px;
+}
+
+div#writer.dynamic div {
+}
+
+div.dynamic p {
+	display: block;
+	margin: 1px 0 0;
+	bottom: 611px;
+}
+
+div#writer.dynamic p {
+	font-size: 12px;
+	text-align: left;
+	margin: 0;
+	padding: 0 0 0 5px;
+}

@@ -1,0 +1,3 @@
+-record(check8,{domain,timestamp,dns,http,mail}).
+-record(facet,{facet,topics}).
+-record(topic,{topic}).
